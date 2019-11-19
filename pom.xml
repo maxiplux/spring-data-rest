@@ -35,7 +35,7 @@
 		<springdata.gemfire>2.2.0.BUILD-SNAPSHOT</springdata.gemfire>
 		<springdata.solr>4.1.0.BUILD-SNAPSHOT</springdata.solr>
 		<springdata.cassandra>2.2.0.BUILD-SNAPSHOT</springdata.cassandra>
-		<springdata.keyvalue>2.2.0.BUILD-SNAPSHOT</springdata.keyvalue>
+		<springdata.keyvalue>2.2.1.RELEASE</springdata.keyvalue>
 
 		<hibernate.version>5.2.17.Final</hibernate.version>
 		<jsonpath>1.1.0</jsonpath>
@@ -101,8 +101,7 @@
 
 									<module name="io.spring.nohttp.checkstyle.check.NoHttpCheck">
 										<!-- XML requires double escaping, config gets XML-processed twice -->
-										<property name="whitelist"
-												  value="http://www\.querydsl\.com.*&amp;#10;http://stateless\.co.*&amp;#10;http://json-schema\.org.*&amp;#10;http://alps\.io.*"/>
+										<property name="whitelist" value="http://www\.querydsl\.com.*&amp;#10;http://stateless\.co.*&amp;#10;http://json-schema\.org.*&amp;#10;http://alps\.io.*"/>
 									</module>
 								</module>
 							</checkstyleRules>
